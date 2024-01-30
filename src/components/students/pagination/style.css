@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.pagination button {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary-100);
+  border: none;
+  color: var(--color-white);
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background: var(--color-primary-200);
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  background: #f87171;
+}
+
+.pagination .icon {
+  font-size: 1.25rem;
+}
+
+.pagination button:first-child {
+  margin-right: 12px;
+}
